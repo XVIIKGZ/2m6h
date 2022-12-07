@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00A2A3BC293B9F5C00259A4C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3BB293B9F5C00259A4C /* main.swift */; };
+		00A2A3C3293B9F7700259A4C /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3C2293B9F7700259A4C /* protocol.swift */; };
+		00A2A3C5293BA01500259A4C /* pickup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3C4293BA01500259A4C /* pickup.swift */; };
+		00A2A3C7293BA08700259A4C /* jeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3C6293BA08700259A4C /* jeep.swift */; };
+		00A2A3C9293BA0BB00259A4C /* crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3C8293BA0BB00259A4C /* crossover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		00A2A3B8293B9F5C00259A4C /* 2m6h */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2m6h; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A2A3BB293B9F5C00259A4C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		00A2A3C2293B9F7700259A4C /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		00A2A3C4293BA01500259A4C /* pickup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickup.swift; sourceTree = "<group>"; };
+		00A2A3C6293BA08700259A4C /* jeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeep.swift; sourceTree = "<group>"; };
+		00A2A3C8293BA0BB00259A4C /* crossover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crossover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				00A2A3BB293B9F5C00259A4C /* main.swift */,
+				00A2A3C2293B9F7700259A4C /* protocol.swift */,
+				00A2A3C4293BA01500259A4C /* pickup.swift */,
+				00A2A3C6293BA08700259A4C /* jeep.swift */,
+				00A2A3C8293BA0BB00259A4C /* crossover.swift */,
 			);
 			path = 2m6h;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A2A3C9293BA0BB00259A4C /* crossover.swift in Sources */,
+				00A2A3C5293BA01500259A4C /* pickup.swift in Sources */,
+				00A2A3C7293BA08700259A4C /* jeep.swift in Sources */,
 				00A2A3BC293B9F5C00259A4C /* main.swift in Sources */,
+				00A2A3C3293B9F7700259A4C /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
